@@ -1,0 +1,95 @@
+python
+>>>import os
+>>> os.system('clear')
+>>> os.system('ls')
+
+Style Guide:
+
+PEP8
+- Readability counts
+    "Consistency is important"
+ - Indentation
+ - Tabs or Spaces?
+ - Maximum Line Lenght
+ - Blank Lines
+ - Imports
+ ...
+
+Style Format
+ pylint ==> Style check
+
+ black ==> python Style trend
+ $ pip install black
+ $ black file_name.py
+
+PARA Pruebas unitarias en python:
+$ pip install pytest
+
+
+------------ Files IO -------------
+
+open file as
+
+$ with .... open as file
+
+------------- Regex --------------
+re ==> library for Regualar expressions
+
+>>> re.search(pattern, string, flags=0)
+
+. any character execept a new line
+* 0 or more repetitions
++ 1 or more repetitions
+? 0 or 1 repetition
+{m} m repetitions
+{m,n} m-n repetitions
+
+^ matches the start of the string
+$ matches the end of the string
+[] set of characters
+[^] complementing the set (exculde characters)
+
+\d decimal digits
+\D not a decimal digits
+\s whitespace characters
+\w word characteres including _ and numbers
+\W not a word charcacters
+A|B either A or B
+(...) group
+(?:...) non capturing
+
+re.IGNORECASE
+re.MULTILINE
+re.DOTALL
+
+------- Object Oriented Programming -------
+
+OOP
+
+dict => key, values {'key': value}
+
+class our own dataTypes (mold or blueprint of our dataTypes or objects)
+class Name (always capitalize)
+
+==> properties similar to attributes, but with more control:
+
+@decorators are used to define properties
+
+_mean it means to make it privete, but is just based on the honor system
+
+classes that come within python start with lower case.
+classes made by the programmer starts with Capital letter (is the convention)
+
+
+------ class methods --------
+
+@classmethod (decorator) really an other function
+
+They don´t have acces to self
+
+
+------------ Inheritance -------------
+
+------------- Operating Overloading ---------------
+
+
